@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge 4</title>
+    <style>
+    .errormsg { 
+        /*font: Use a cool Google font*/
+    	color:red;
+        font-family:cursive;
+    	display:none; 
+    } 
+    </style>
+    
+    <script type="text/javascript">
+    function checkForm(){
+        var fullName = document.getElementById('fullname').value;
+        var streetAddr = document.getElementById('streetaddr').value;
+        var nameErorMsg = document.getElementById('nameerrormsg');
+        var addrErorMsg = document.getElementById('addrerrormsg');
+
+
+        if (fullName  == '' & streetAddr == '') {
+            nameErorMsg.style.display = 'block';
+            addrErorMsg.style.display = 'block';
+            return false;
+        } else if (fullName  == '') {
+            nameErorMsg.style.display = 'block';
+            return false;
+        } else if (streetAddr  == '') {
+            addrErorMsg.style.display = 'block';
+            return false;
+        } else {
+            return true;
+        }
+
+    	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank. 
+    } 
+    </script>
+</head>
+<body>
+    <h1>Challenge 4</h1>
+	<form action="challenge5.html" onsubmit="return checkForm();">
+        <fieldset>
+        <legend>Personal details</legend>
+          <label for="fullname">Full name: </label>
+            <input type="text" name="fullname" id="fullname"><br/>
+            <p class="errormsg" id="nameerrormsg">Please enter your name above!</p>
+
+          <label for ="streetaddr"></label>
+            Street Address:
+            <input type="text" name="streetaddr" id="streetaddr">
+            <p class="errormsg" id="addrerrormsg">Please enter your street address!</p>
+        </fieldset>
+        <input type="submit" value="Submit it!"> 
+    </form>
+</body>
+</html>
