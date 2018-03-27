@@ -1,0 +1,50 @@
+#main-content {
+	background-color: #E1C4C4;
+	padding: 10px;
+}
+h1 {font-family: 'Raleway', sans-serif;}
+p {font-family: 'Raleway', sans-serif;}
+nav {
+	display: inline-block;
+}
+.nav-bar {
+	overflow: hidden;
+	background-color: gray;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+
+
+.nav-bar a{
+	float: left;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.current-page {
+	background-color: black;
+	
+}
+
+footer {
+	background-color: gray;
+	font-size: .85em;
+	text-align: center;
+	position: relative;
+	display: block;
+	/*margin-top: 5px;*/
+}
+
+
+
+/*i {
+	color: black;
+}*/
+
+.project-link {
+	display: inline-block;
+}

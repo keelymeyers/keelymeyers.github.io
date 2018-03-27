@@ -1,0 +1,7 @@
+/* Large Screen */ 
+
+@media only screen and (min-width: 1000px) {}
+
+/* Medium Screen */
+
+@media only screen and (min-width: 650px) and (max-width: 999px) {}
