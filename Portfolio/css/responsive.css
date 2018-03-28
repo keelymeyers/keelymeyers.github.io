@@ -13,20 +13,107 @@
 		padding: 15px 0px;
 	}
 
-	nav>li {
+	
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	nav > ul {
+	/*height: 40px;*/
+		text-align: center;
+	}
+
+	nav > ul > li {
+		/*width: 100vw;*/
+		display: flex;
 		float: left;
-		display: inline;
+		justify-content: right;
+		text-align: left;
+		width: 10vw;
+		/*vertical-align: top;
+		text-align: center;
+		border: 0.05px solid black;*/
+	}
+
+	nav ul li:hover ul {
+		display: flex;
+		/*width: 100vw;*/
+	}
+
+	nav ul li ul { 
+    	display: none;
+    	background: #333;
+	}
+
+	nav ul li a { 
+    	color: white;
+    	padding: 0px; 
+    	line-height: 40px;
+    	text-decoration: none;
+    	height: 100px;
+    	line-height: 100px;
+    	display: block;
+    	text-align: center;
+	}
+
+	nav ul li:hover a{
+    	background-color: white;
+	}
+
+	nav ul li:hover {
+    	color: black;
+	}
+
+	nav ul li ul li { 
+   		text-align: left;
+	}
+
+	.current-page {
+		background-color:black;	
+		width: 10vw;
+		font-weight: bold;
 
 	}
 
-	nav>li>a{
-		display:block;
-		padding: 10px;
+	.project-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+
 	}
 
-	#me {
-		float: right;
+	.graphic-design {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		
 	}
+
+	.foodmapping {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		
+	}
+
+	.healthanalysis {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		
+	}
+
+	.environmentalanalysis {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 3;
+		
+	}
+
+
 /* Medium Screen */
 
 @media only screen and (min-width: 650px) and (max-width: 999px) {}
