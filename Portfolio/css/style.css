@@ -1,9 +1,34 @@
 #main-content {
 	background-color: #E1C4C4;
 	padding: 10px;
+	/*height: 100vh;*/
 }
-h1 {font-family: 'Raleway', sans-serif;}
-p {font-family: 'Raleway', sans-serif;}
+html {
+	background-color: #E1C4C4;
+
+}
+
+nav {
+	box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
+}
+
+i{
+	color:white;
+	padding: 10px;
+	font-size: 100px;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	/*text-align: center;*/
+}
 nav {
 	display: inline-block;
 }
@@ -11,13 +36,16 @@ nav {
 	overflow: hidden;
 	background-color: gray;
 	font-family: 'Raleway', sans-serif;
-	width: 100%;
+	width: 100vw;
 }
 
 
-
-.nav-bar a{
-	float: left;
+.nav-bar li {
+	color:white;
+	text-align: center;
+}
+.nav-bar li a{
+	/*float: left;*/
 	font-size: 20px;
 	color: white;
 	text-align: center;
@@ -25,18 +53,37 @@ nav {
 	text-decoration: none;
 }
 
-.current-page {
-	background-color: black;
-	
+footer, a, i {
+	font-size: 3em;
+	/*float: left;*/
+	/*padding: 0em 3em;*/
 }
+
+.nav-bar-buttons {
+    width: 100vw;  
+    list-style-type: none;
+}
+
+
+/*.current-page {
+	background-color:black;	
+	font-weight: bold;
+
+}*/
+
 
 footer {
 	background-color: gray;
 	font-size: .85em;
 	text-align: center;
-	position: relative;
+	position: absolute;
+	width: 100vw;
 	display: block;
-	/*margin-top: 5px;*/
+	margin-top: 100vh;
+}
+
+footer p {
+	padding: 10px;
 }
 
 
@@ -47,4 +94,92 @@ footer {
 
 .project-link {
 	display: inline-block;
+	font-size: 1em;
+	text-decoration: none;
 }
+
+
+.formText {
+	width: 65vw;
+	height: 25vh;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul {
+	/*height: 40px;*/
+	text-align: center;
+}
+
+nav > ul > li {
+	width: 100vw;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border: 0.05px solid black;
+}
+
+nav ul li:hover ul {
+	display: inline-block;
+	width: 100vw;
+}
+
+nav ul li ul { 
+    display: none;
+    background: #333;
+}
+
+nav ul li a { 
+    color: white;
+    padding: 10px; 
+    line-height: 40px;
+    text-decoration: none;
+    height: 100px;
+    line-height: 100px;
+}
+
+nav ul li:hover {
+    background-color: red;
+}
+
+nav ul li ul li { 
+    text-align: left;
+}
+
+/*nav ul li ul li a { /* all the sub-menu anchor tags */
+    /*height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.current-page {
+	background-color:black;	
+	width: 100vw;
+	font-weight: bold;
+
+}
+
+
+
+.project-link{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 0px;
+}
+
+#name{
+	size: 20em;
+	padding: 20px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
