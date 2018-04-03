@@ -145,17 +145,16 @@
 
 	/* Graphic Design Page */
 	
+	
+
 	.project-container img {
-	width: 50%;
-	display: block;
-	float: left;
-	margin: auto;
-
+		width: 50%;
+		display: block;
+		float: left;
+		margin: auto;
 	}
 
-	.design-title {
-		background-color: black;
-	}
+
 	.project-container img.botanical{
 		width: 33.3%;
 		/*padding: 5px;
@@ -171,11 +170,27 @@
 	}
 
 	#raspberry {
-		float:left;
+		float: right;
+		display: inline-block;
+
+	}
+	/*
+	#infographic h2 {
+		
+		float: left;
+		width: 50%;
+		display: inline-block;
+		height: 300px;
 	}
 
-	#infographic h2 {
-		padding-top: 200px
+	.design-title h2 {
+		padding-top: 600px;
+	}*/
+
+		
+	.graphicdesign {
+		margin-top: 80%;
+
 	}
 
 
