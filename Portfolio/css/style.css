@@ -1,16 +1,58 @@
 #main-content {
-	background-color: #E1C4C4;
-	padding: 10px;
-	/*height: 100vh;*/
+	background-color: white;
+	/*padding: 10px;*/
+	height: auto;
+	
 }
+
+.rasp {
+	padding-top: 400px;
+}
+
+
+#main-content-home{
+	padding: 120px 0px 60px 0px;
+}
+
+.main-content-home h1{
+	color: #c9a4a3;
+	font-weight: 400;
+}
+
+#aboutme {
+	/*background-color: #c9a4a3;*/
+	padding: 20px 0px 100px 0px;
+	margin-top: 80px;
+}
+
 html {
-	background-color: #E1C4C4;
+	background-color: white;
 
 }
 
-nav {
+/*#name{
+	padding
+}
+*/
+
+h2.design-title{
+	padding: 50px 0px;
+}
+
+/*nav {
 	box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
+}*/
+
+.intro{
+	padding: 25px;
 }
+
+#main-content-graphic-design h2 {
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.graphic {color:white;}
 
 i{
 	color:white;
@@ -18,36 +60,91 @@ i{
 	font-size: 100px;
 }
 h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 0px;
+	font-weight: 200;
+	text-align: center;
+	font-size: 2.5em;
 }
 h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	font-weight: 200;
 	font-size: 1.5em;
 }
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	/*text-align: center;*/
+	font-weight: 200;
+	font-size: 1.5em;
 }
+
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	padding: 0px 10px 30px 10px;
+}
+
+#name{
+	font-size: 3em;
+}
+
+#aboutme p{
+	padding: 0px 30px 30px 30px;
+
+}
+
 nav {
 	display: inline-block;
 }
 .nav-bar {
 	overflow: hidden;
-	background-color: gray;
-	font-family: 'Raleway', sans-serif;
+	background-color: #c9a4a3;
+	font-family: 'Roboto', sans-serif;
 	width: 100vw;
 }
 
+.project-container img {
+	width: 50%;
+	display: block;
+	float: left;
+	margin: auto;
+
+}
+.project-container img.botanical{
+	width: 33.3%;
+	/*padding: 5px;
+*/	padding-bottom: 50px;
+	height: 600px;
+}
+
+.project-container img.bio{
+	width: 33.3%;
+	/*padding: 5px;
+*/	padding-bottom: 50px;
+	height: 400px;
+}
+
+
+#raspberry {
+	float:left;
+}
+
+#infographic h2 {
+	padding-top: 200px
+}
 
 .nav-bar li {
-	color:white;
+	/*color:white;*/
 	text-align: center;
 }
 .nav-bar li a{
 	/*float: left;*/
 	font-size: 20px;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -79,14 +176,25 @@ footer {
 	position: absolute;
 	width: 100vw;
 	display: block;
-	margin-top: 100vh;
+	margin-top: 100%;
+	margin-bottom: 0px;
+}
+
+#projectpage-footer {
+	margin-top: 0;
 }
 
 footer p {
 	padding: 10px;
 }
 
+.homeimage {
+	height: 700px;
+	width: 100vw;
+	padding-top: 150px;
+	padding-bottom: 0px;
 
+}
 
 /*i {
 	color: black;
@@ -176,6 +284,7 @@ nav ul li ul li {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px 0px;
+
 }
 
 #name{
