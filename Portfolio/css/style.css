@@ -97,6 +97,11 @@ h3 {
 
 }
 
+#logo {
+	justify-content: center;
+	padding: 0px;
+}
+
 form{
 	padding: 0px 0px 0px 50px;
 	background: url("img/IMG_0568.jpg") no-repeat center;
@@ -279,7 +284,12 @@ nav ul li ul li {
 	background-color:black;	
 	width: 100vw;
 	font-weight: bold;
+	color: white;
 
+}
+
+li.current-page a{
+	color: white;
 }
 
 
@@ -301,7 +311,7 @@ nav ul li ul li {
 
 	}
 
-	
+
 
 	.gd {
 		margin: 100px 0px;
