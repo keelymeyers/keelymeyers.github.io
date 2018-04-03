@@ -1,18 +1,10 @@
 /* Large Screen */ 
 
 @media only screen and (min-width: 1000px) {
-	.project-links {
-		display: block;
-		float: left;
-		width: 35%;
 
-		text-align: left;
-		display: block;
-		margin-left: 0;
-		margin-right: 0;
-		padding: 15px 0px;
-	}
 
+
+	/* Navigation */
 	
 	nav ul {
 		list-style: none;
@@ -85,6 +77,22 @@
 
 	}
 
+
+	/* Projects Page */
+
+	.project-links {
+		display: block;
+		float: left;
+		width: 35%;
+
+		text-align: left;
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 15px 0px;
+	}
+
+
 	.project-link a p{
 		text-decoration: none;
 		font-size: 5em;
@@ -134,12 +142,6 @@
 		
 	}
 
-
-	/*.botanical {
-		grid-column-start: 1;
-		grid-column-end: 3;
-
-	}*/
 
 
 /* Medium Screen */

@@ -1,15 +1,13 @@
-#main-content {
-	background-color: white;
-	/*padding: 10px;*/
-	height: auto;
-	
-}
 
 .rasp {
 	padding-top: 400px;
 }
 
-
+.square{
+	color: black;
+	height: 400px;
+	width:400px;
+}
 #main-content-home{
 	padding: 120px 0px 60px 0px;
 }
@@ -29,6 +27,7 @@ html {
 	background-color: white;
 
 }
+
 
 /*#name{
 	padding
@@ -97,6 +96,17 @@ h3 {
 
 }
 
+#form {
+	padding: 20px 50px 20px 50px;
+	font-weight: 300;
+
+}
+
+form{
+	padding: 0px 0px 0px 50px;
+	background: url("img/IMG_0568.jpg") no-repeat center;
+}
+
 nav {
 	display: inline-block;
 }
@@ -152,6 +162,7 @@ nav {
 
 footer, a, i {
 	font-size: 3em;
+	padding: 5px  20px;
 	/*float: left;*/
 	/*padding: 0em 3em;*/
 }
@@ -176,7 +187,7 @@ footer {
 	position: absolute;
 	width: 100vw;
 	display: block;
-	margin-top: 100%;
+	margin-top: 50px;
 	margin-bottom: 0px;
 }
 
