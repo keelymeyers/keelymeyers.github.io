@@ -143,6 +143,41 @@
 	}
 
 
+	/* Graphic Design Page */
+	
+	.project-container img {
+	width: 50%;
+	display: block;
+	float: left;
+	margin: auto;
+
+	}
+
+	.design-title {
+		background-color: black;
+	}
+	.project-container img.botanical{
+		width: 33.3%;
+		/*padding: 5px;
+*/		padding-bottom: 50px;
+		height: 600px;
+	}
+
+	.project-container img.bio{
+		width: 33.3%;
+	/*padding: 5px;
+*/		padding-bottom: 50px;
+		height: 400px;
+	}
+
+	#raspberry {
+		float:left;
+	}
+
+	#infographic h2 {
+		padding-top: 200px
+	}
+
 
 /* Medium Screen */
 
