@@ -14,8 +14,8 @@
 
 #aboutme {
 	/*background-color: #c9a4a3;*/
-	padding: 20px 0px 100px 0px;
-	margin-top: 80px;
+	padding: 0px 0px 100px 0px;
+	margin-top: 0vh;
 }
 
 html {
@@ -104,8 +104,11 @@ h3 {
 }
 
 #logo {
-	justify-content: center;
-	padding: 0px;
+	display: inline-block;
+	text-align: center;
+	width: 100vw;
+	
+	
 }
 
 form{
@@ -210,15 +213,34 @@ footer p {
 	padding: 10px;
 }
 
-.homeimage {
-	
-	/*background-image: url("img/IMG_0568.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;*/
-	height: 700px;
+
+object {
+	padding: 0px 10px 0px 10px;
 	width: 100vw;
-	padding-top: 150px;
-	padding-bottom: 0px;
+	height: 100vh;
+	
+	
+}
+
+
+#resume-footer {
+	margin-top: 10vh;
+}
+
+
+.homeimage {
+	display: block;
+	text-align: center;
+	background-image: url("../img/IMG_0568.jpg");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 120vh;
+	width: 100vw;
+	margin-top: 150px;
+	margin-bottom: 0px;
+
 
 }
 
@@ -296,6 +318,7 @@ nav ul li:hover ul {
 nav ul li ul { 
     display: none;
     background: #333;
+    color: white;
 }
 
 nav ul li a { 
@@ -368,7 +391,7 @@ h2.design-title {
 
 	}
 
-	
+
 
 	.project:hover img{
 		box-shadow: 3px 3px 50px 3px gray;
