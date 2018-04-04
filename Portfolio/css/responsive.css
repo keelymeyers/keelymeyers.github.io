@@ -142,6 +142,10 @@
 		
 	}
 
+	.map {
+		width: 55%;
+	}
+
 
 	/* Graphic Design Page */
 	
@@ -168,6 +172,8 @@
 */		padding-bottom: 50px;
 		height: 400px;
 	}
+	
+
 
 	#raspberry {
 		float: right;
