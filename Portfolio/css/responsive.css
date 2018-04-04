@@ -13,11 +13,7 @@
 		overflow: hidden;
 	}
 
-	/*nav > ul {
-		height: 40px;
-		text-align: center;
-	}
-*/
+
 	nav > ul > li {
 		/*width: 100vw;*/
 		display: inline-block;
@@ -25,6 +21,7 @@
 		
 		text-align: left;
 		width: 10vw;
+
 		/*vertical-align: top;
 		text-align: center;
 		border: 0.05px solid black;*/
@@ -66,6 +63,15 @@
    		text-align: left;
 	}
 
+	.nav-bar li a{
+		padding: 14px 20px;
+
+	}
+
+	.nav-bar li {
+		width: 15vw;
+	}
+
 
 
 
@@ -76,7 +82,9 @@
 
 
 	}
-
+	.nav-bar{
+		width: 100vw;
+	}
 
 	/* Projects Page */
 
@@ -147,7 +155,7 @@
 	}
 
 	footer, a, i {
-	font-size: 3em;
+	/*font-size: 3em;*/
 	padding: 5px  20px;
 	/*float: left;*/
 	/*padding: 0em 3em;*/
@@ -165,6 +173,12 @@
 		margin: auto;
 	}
 
+	#logo {
+		float: left;
+		margin-right: 28vw;
+		margin-left: 2vw;
+	}
+
 
 	.project-container img.botanical{
 		width: 33.3%;
@@ -180,21 +194,35 @@
 		height: 400px;
 	}
 	
-
+	.environ {
+		margin-top: 50px;
+	}
 
 	#raspberry {
 		float: right;
 		display: inline-block;
 
 	}
-	/*
-	#infographic h2 {
+	
+	#infographic {
 		
-		float: left;
-		width: 50%;
-		display: inline-block;
-		height: 300px;
+		
+		display: inline-grid;
+		grid-template-rows: auto;
+		grid-template-rows: auto auto;
 	}
+
+	.rasp {
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	#raspberry {
+		grid-column-start: 3;
+	}
+
+	/*
 
 	.design-title h2 {
 		padding-top: 600px;
@@ -209,4 +237,10 @@
 
 /* Medium Screen */
 
-@media only screen and (min-width: 650px) and (max-width: 999px) {}
+@media only screen and (min-width: 650px) and (max-width: 999px) {
+
+
+
+
+
+}
