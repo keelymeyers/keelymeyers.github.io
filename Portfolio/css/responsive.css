@@ -59,6 +59,11 @@
     	color: black;
 	}
 
+	nav ul li:hover ul {
+		display: none;
+		width: 100vw;
+	}
+
 	nav ul li ul li { 
    		text-align: left;
 	}
@@ -161,6 +166,7 @@
 	/*padding: 0em 3em;*/
 }
 
+	
 
 	/* Graphic Design Page */
 	
@@ -198,13 +204,13 @@
 		margin-top: 50px;
 	}
 
-	#raspberry {
+	/*#raspberry {
 		float: right;
 		display: inline-block;
 
-	}
+	}*/
 	
-	#infographic {
+/*	#infographic {
 		
 		
 		display: inline-grid;
@@ -220,7 +226,7 @@
 
 	#raspberry {
 		grid-column-start: 3;
-	}
+	}*/
 
 	/*
 
@@ -238,6 +244,83 @@
 /* Medium Screen */
 
 @media only screen and (min-width: 650px) and (max-width: 999px) {
+
+
+	nav > li {
+		display: inline-block;
+		width: 33vw;
+	}
+
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+
+	nav > ul > li {
+		/*width: 100vw;*/
+		display: inline-block;
+		float: left;
+		
+		text-align: left;
+		width: 10vw;
+
+		/*vertical-align: top;
+		text-align: center;
+		border: 0.05px solid black;*/
+	}
+
+	nav ul li:hover ul li{
+		display: inline-block;
+		/*width: 100vw;*/
+		position: relative;
+	}
+
+	nav ul li ul { 
+    	display: none;
+    	background: #333;
+	}
+
+	nav ul li a { 
+    	color: white;
+    	padding: 0px; 
+    	line-height: 40px;
+    	text-decoration: none;
+    	height: 100px;
+    	line-height: 100px;
+    	display: block;
+    	text-align: center;
+	}
+
+	nav ul li:hover a{
+    	background-color: white;
+    	display: block;
+
+	}
+
+	nav ul li:hover {
+    	color: black;
+	}
+
+	nav ul li:hover ul {
+		display: none;
+		width: 100vw;
+	}
+
+	nav ul li ul li { 
+   		text-align: left;
+	}
+
+	.nav-bar li a{
+		padding: 14px 20px;
+
+	}
+
+	.nav-bar li {
+		width: 15vw;
+	}
 
 
 

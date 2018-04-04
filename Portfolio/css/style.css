@@ -23,6 +23,11 @@ html {
 
 }
 
+.raspberry {
+	width: 50vw;
+	margin: auto;
+}
+
 
 /*#name{
 	padding
@@ -63,7 +68,7 @@ h1 {
 h2 {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 1.5em;
 }
 p {
@@ -95,6 +100,7 @@ h3 {
 	padding: 20px 50px 20px 50px;
 	font-weight: 300;
 
+
 }
 
 #logo {
@@ -104,8 +110,12 @@ h3 {
 
 form{
 	padding: 0px 0px 0px 50px;
-	background: url("img/IMG_0568.jpg") no-repeat center;
+	
+	
 }
+
+
+
 
 nav {
 	display: inline-block;
@@ -189,6 +199,7 @@ footer {
 	display: block;
 	margin-top: 50px;
 	margin-bottom: 0px;
+
 }
 
 #projectpage-footer {
@@ -200,6 +211,10 @@ footer p {
 }
 
 .homeimage {
+	
+	/*background-image: url("img/IMG_0568.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;*/
 	height: 700px;
 	width: 100vw;
 	padding-top: 150px;
@@ -217,10 +232,20 @@ footer p {
 	text-decoration: none;
 }
 
+figure {
+	background: url("img/graphic_design_cover.jpg");
+}
 
-.formText {
+textarea {
 	width: 65vw;
 	height: 25vh;
+	border: 0.5px solid #D7D5D5;
+	
+
+}
+
+input {
+	border: 0.5px solid #D7D5D5;
 }
 
 nav ul {
@@ -263,7 +288,7 @@ nav > ul > li {
 	padding: 0px 50px 10px 50px;
 }
 
-nav ul list-style:hover ul {
+nav ul li:hover ul {
 	display: inline-block;
 	width: 100vw;
 }
@@ -311,7 +336,7 @@ nav ul li ul li {
 
 li.current-page a{
 	color: white;
-	
+
 
 }
 
@@ -326,18 +351,32 @@ li.current-page a{
 
 }
 
-.design-title {
+.project {
+	padding: 20px 0px;
+}
+.project p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h2.design-title {
 		/*color: #c9a4a3;*/
-		/*padding: 5px;*/
+		padding-top: 50px;
+		display: block;
 		background-color: #D7D5D5;
-		margin: 50px 0px;
+		margin: 50px 0px 50px 0px;
 
 	}
 
+	
 
+	.project:hover img{
+		box-shadow: 3px 3px 50px 3px gray;
+	}
 
 	.gd {
 		margin: 100px 0px;
+		color: ;
 	}
 
 #name{
