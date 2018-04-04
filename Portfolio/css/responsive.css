@@ -146,6 +146,13 @@
 		width: 55%;
 	}
 
+	footer, a, i {
+	font-size: 3em;
+	padding: 5px  20px;
+	/*float: left;*/
+	/*padding: 0em 3em;*/
+}
+
 
 	/* Graphic Design Page */
 	
