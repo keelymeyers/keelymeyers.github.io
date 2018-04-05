@@ -24,6 +24,9 @@
 		margin-left: 0;
 	}
 	
+	.homeimage {
+		margin-top: 150px;
+	}
 
 	/* Graphic Design Page */
 
@@ -107,6 +110,9 @@
 
 	#aboutme {
 		padding-top: 10vh;
+	}
+	.homeimage {
+		margin-top: 150px;
 	}
 
 
