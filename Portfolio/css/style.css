@@ -261,6 +261,7 @@ footer p {
 }
 form{
 	padding: 0px 0px 0px 50px;	
+	width: 60vw;
 }
 textarea {
 	width: 65vw;
