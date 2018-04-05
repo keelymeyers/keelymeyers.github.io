@@ -261,16 +261,20 @@ footer p {
 }
 form{
 	padding: 0px 0px 0px 50px;	
-	width: 60vw;
 }
 textarea {
 	width: 65vw;
 	height: 25vh;
 	border: 0.5px solid #D7D5D5;
 }
-
 input {
 	border: 0.5px solid #D7D5D5;
+}
+input #message{
+	width: 60vw;
+}
+input #first-name, #email {
+	width: 40vw;
 }
 
 
