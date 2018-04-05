@@ -23,9 +23,7 @@
 		float: left;
 		margin-left: 0;
 	}
-	p {
-		text-align: left;
-	}
+	
 
 	/* Graphic Design Page */
 
@@ -278,8 +276,6 @@
 	footer, a, i {
 		padding: 5px  20px;
 	}
-
-
 
 	.raspberry img{
 		margin-left: auto;
