@@ -1,32 +1,97 @@
+/* Medium Screen */
+
 @media only screen and (min-width: 650px) and (max-width: 999px) {
 
+	/* Navigation */
+	
 	nav {
 		width: 100vw;
 	}
-
 	nav ul {
 		text-align: center;
 	}
 	nav ul li {
 		display: inline;
 		text-align: center;
-
 	}
-
 	nav ul > a {
 		float: left;
 	}
-
 	#logo {
 		width: 100vw;
 		display: inline;
 		float: left;
 		margin-left: 0;
 	}
+	p {
+		text-align: left;
+	}
+
+	/* Graphic Design Page */
 
 
+	.project-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		margin: 50px 0px 0px 0px;
+		padding: 0px;
+		grid-gap: 0px 0px;
+	}
 
 
+	.project-container h2.design-title{
+		background-color: white;
+		font-weight: 400;
+		margin-top: 40%;
+		font-size: 2.5em;
+		margin-left: 10%;
+	}
+	.project-container img.botanical #a {
+		background-color: black;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	.project-container img.botanical #b {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+
+	}
+
+	.project-container img.botanical #c {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 4;
+	}
+
+
+	.graphicdesign {
+		margin-top: 10%;
+	}
+
+	.bio, .botanical, .raspberry {
+		background-color: #c9a4a3;
+		/*background-size: 100%;*/
+		padding: 10px;
+		margin: 0px;
+	}
+
+	.bio {
+		height: 60%;
+		width: 100%;
+		padding: 10px;
+	}
+
+
+	#aboutme {
+		padding-top: 50px
+	}
 
 
 }
@@ -37,9 +102,15 @@
 
 @media only screen and (min-width: 1000px) {
 
+
+	p {
+		text-align: left;
+	}
+
 	#aboutme {
 		padding-top: 10vh;
 	}
+
 
 	/* Navigation */
 
@@ -71,42 +142,25 @@
 		text-align: center;
 		width: 10vw;
 	}
-
-
-	/*nav ul li a { 
-    	color: white;
-    	padding: 0px; 
-    	line-height: 40px;
-    	text-decoration: none;
-    	height: 100px;
-    	line-height: 100px;
-    	display: block;
-    	text-align: center;
-	}*/
-
 	
 	.nav-bar li a{
 		padding: 14px 10px;
 
 	}
-
 	.nav-bar li {
 		width: 15vw;
 	}
-
-
-
-
 	.current-page {
 		background-color:black;	
 		width: 10vw;
 		font-weight: bold;
-
-
 	}
 	.nav-bar{
 		width: 100vw;
 	}
+
+
+
 
 	/* Projects Page */
 
@@ -122,7 +176,6 @@
 		padding: 15px 0px;
 	}
 
-
 	.project-link a p{
 		text-decoration: none;
 		font-size: 5em;
@@ -134,7 +187,6 @@
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
 		width: 100vw;
-		/*height: auto;*/
 		margin: 0;
 		padding: 0;
 
@@ -142,7 +194,6 @@
 
 	.graphic-design {
 		grid-column-start: 1;
-		/*grid-column-end: 1;*/
 		grid-row-start: 1;
 		margin-top: 20px;
 		
@@ -172,28 +223,22 @@
 		
 	}
 
+	
+
 	.map {
 		width: 55%;
 	}
 
 	footer, a, i {
-	/*font-size: 3em;*/
-	padding: 5px  20px;
-	/*float: left;*/
-	/*padding: 0em 3em;*/
-}
+		padding: 5px  20px;
+	}
 
 	
 
 	/* Graphic Design Page */
 	
-	
-
-	.project-container img {
-		width: 50%;
-		display: block;
-		float: left;
-		margin: auto;
+	.main-content-graphic-design h1 {
+		margin: 150px 0px;
 	}
 
 	#logo {
@@ -204,16 +249,18 @@
 
 
 	.project-container img.botanical{
+		display: block;
 		width: 33.3%;
-		/*padding: 5px;
-*/		padding-bottom: 50px;
+		margin-bottom: 50px;
 		height: 600px;
+		float: left;
 	}
 
 	.project-container img.bio{
+		display: block;
 		width: 33.3%;
-	/*padding: 5px;
-*/		padding-bottom: 50px;
+		float: left;
+		margin-bottom: 50px;
 		height: 400px;
 	}
 	
@@ -221,57 +268,26 @@
 		margin-top: 50px;
 	}
 
-	/*#raspberry {
-		float: right;
-		display: inline-block;
 
-	}*/
-	
-/*	#infographic {
-		
-		
-		display: inline-grid;
-		grid-template-rows: auto;
-		grid-template-rows: auto auto;
-	}
 
-	.rasp {
-		grid-column-start: 1;
-		grid-column-end: 2;
-
-	}
-
-	#raspberry {
-		grid-column-start: 3;
-	}*/
-
-	/*
-
-	.design-title h2 {
-		padding-top: 600px;
-	}*/
-
-		
 	.graphicdesign {
-		margin-top: 80%;
+		margin-top: 20%;
 
 	}
 
-
-/* Medium Screen */
-
-/*@media only screen and (min-width: 650px) and (max-width: 999px) {
-
-	.nav-bar li{
-		color: green;
+	footer, a, i {
+		padding: 5px  20px;
 	}
 
-	.main-content-home h1{
-		color: black;
-		font-weight: 400;
-}
 
 
+	.raspberry img{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 0px;
+	}
+
+		
 
 
-}*/
