@@ -1,0 +1,13 @@
+img{
+	
+	display: inline;
+	padding: 5%;
+	border: 5px solid blue;
+	width: 49%;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+button{
+	display:inline-block;
+}

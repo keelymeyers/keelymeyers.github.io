@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exam</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		// document.getElementById("hide").onclick = function() {
+  //   		document.getElementById("colleen").style.visibility = "hidden";
+  //   	}
+  //   	document.getElementById("show").onclick = function() {
+  //   		document.getElementById("colleen").style.visibility = "visible";
+  //   	}
+
+
+		function hideImage() {
+			var colleenPic = document.getElementById('colleen');
+			colleenPic.style.visibility = "hidden";
+			// colleenPic.hide();
+		}
+
+		function showImage() {
+			var colleenPic = document.getElementById('colleen').show();
+			colleenPic.style.visibility = "hidden";
+
+			// colleenPic.show();
+		}
+
+	}
+	</script> 
+</head>
+<body>
+	<h1>Keely Meyers<h1>
+	<img id="colleen" src="images/examPic.JPG" alt="picture of Colleen">
+	<img id="umsi" src="images/UMSI-logo.jpg" alt="UMSI logo">
+	<button id="hide" onclick="hideImage()">Hide image</button>
+	<button id="show" onclick="showImage()">Show image</button>
+</body>
+</html>
