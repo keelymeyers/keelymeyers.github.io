@@ -4,27 +4,41 @@
 	<meta charset="UTF-8">
 	<title>Exam</title>
 	<link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 	<script>
 	$(document).ready(function(){
 
-  		$('.hide').click(function(){
-  			console.log("working!")
-  			$('.colleen').hide();
-  		})
+   		$('#hide').click(function(){
+   			console.log("working!")
+   			$('#colleen').hide();
+   		})
 
-		$('.show').click(function(){
-			$('.colleen').show()
-		})
+		 $('#show').click(function(){
+		 	$('#colleen').show()
+		 })
+
+		// var hideButton = document.getElementById('hide');
+		// var colleenPic = document.getElementById('colleen');
+		// var showButton = document.getElementById('show');
+
+
+		// function hideImage() {
+		// 	document.getElementById('colleen').style.display = "none";
+		// }
+
+		// function showImage() {
+		// 	colleenPic.style.display = "inline-block";
+		// }
+	
 
 	}
 	</script> 
 </head>
 <body>
 	<h1>Keely Meyers</h1>
-	<img class="colleen" src="images/examPic.JPG" alt="picture of Colleen">
-	<img class="umsi" src="images/UMSI-logo.jpg" alt="UMSI logo">
-	<button class="hide">Hide image</button>
-	<button class="show">Show image</button>
+	<img id="colleen" src="images/examPic.JPG" alt="picture of Colleen">
+	<img id="umsi" src="images/UMSI-logo.jpg" alt="UMSI logo">
+	<button id="hide">Hide image</button>
+	<button id="show">Show image</button>
 </body>
 </html>
